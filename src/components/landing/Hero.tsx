@@ -76,7 +76,7 @@ const Hero = ({
               <div className="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
                 <ShieldCheck className="w-6 h-6 text-emerald-400" />
               </div>
-              <span className="text-white">Charlotte Ready</span>
+              <span className="text-white">West Seneca Ready</span>
             </div>
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">

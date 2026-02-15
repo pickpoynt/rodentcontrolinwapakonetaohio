@@ -9,7 +9,7 @@ const Services = () => {
             Comprehensive <span className="text-emerald-600">Plumbing Services</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Tulsa homeowners trust us for expert infrastructure diagnostics and precision plumbing restoration. We provide master-licensed care for Green Country.
+            West Seneca homeowners trust us for expert plumbing diagnostics and precision repair. We provide master-licensed care for Western New York.
           </p>
         </div>
 

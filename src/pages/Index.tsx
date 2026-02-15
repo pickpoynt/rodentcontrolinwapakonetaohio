@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import TulsaPlumbingInfo from "@/components/landing/TulsaPlumbingInfo";
+import WestSenecaPlumbingInfo from "@/components/landing/WestSenecaPlumbingInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>plumber tulsa ok</title>
-        <meta name="description" content="plumber tulsa ok - Expert repair, leak detection & master drain services in Tulsa. 24/7 emergency response & precision diagnostics. Call (877) 792-1410!" />
-        <meta name="keywords" content="plumber tulsa ok, Tulsa plumbers, emergency plumber Tulsa, drain cleaning Tulsa, plumbing repair OK, Green Country plumbing" />
-        <link rel="canonical" href="https://tulsa-plumbing-pros.com/" />
+        <title>Plumber West Seneca NY West Seneca</title>
+        <meta name="description" content="Plumber West Seneca NY West Seneca - Expert plumbing repair, leak detection & emergency services. 24/7 response for West Seneca homes & businesses. Call (877) 792-1410!" />
+        <meta name="keywords" content="plumber west seneca ny, West Seneca plumber, emergency plumber West Seneca, plumbing repair NY, Western New York plumbing, West Seneca plumbing services" />
+        <link rel="canonical" href="https://west-seneca-plumbing.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Tulsa Plumbing Pros",
-            "image": "input_file_0.png",
+            "name": "West Seneca Plumbing Pros",
+            "image": "https://images.unsplash.com/photo-1607472586893-edb57bdc0739?auto=format&fit=crop&q=80&w=1200",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Tulsa",
-              "addressRegion": "OK",
-              "postalCode": "74103",
+              "addressLocality": "West Seneca",
+              "addressRegion": "NY",
+              "postalCode": "14224",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "36.1540",
-              "longitude": "-95.9928"
+              "latitude": "42.8500",
+              "longitude": "-78.7494"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Tulsa, OK"
+              "name": "West Seneca, NY"
             },
             "priceRange": "$$",
-            "description": "Professional residential and commercial plumbing services in Tulsa, OK. We specialize in rapid emergency response, slab leak detection, and technical drain restoration across Green Country."
+            "description": "Professional residential and commercial plumbing services in West Seneca, NY. We specialize in 24/7 emergency response, leak detection, drain cleaning, and expert plumbing repair for Western New York homes."
           })}
         </script>
 
@@ -55,46 +55,46 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Professional Plumbing & Mechanical Services",
+            "serviceType": "Professional Plumbing Services",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Tulsa Plumbing Pros",
+              "name": "West Seneca Plumbing Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Tulsa, OK"
+              "name": "West Seneca, NY"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Plumbing Maintenance & Repair",
+              "name": "Plumbing Services & Repair",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Emergency Pipe Burst Restoration"
+                    "name": "Emergency Plumbing Repair"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "High-Performance Slab Leak Detection"
+                    "name": "Leak Detection & Repair"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Green Country Drain Analytics"
+                    "name": "Drain Cleaning Services"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Professional Infrastructure Installation"
+                    "name": "Water Heater Installation & Repair"
                   }
                 }
               ]
@@ -103,11 +103,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="plumber tulsa ok - Tulsa's Technical Plumbing Authority" />
-        <meta property="og:description" content="Expert plumbing and mechanical services in Tulsa. Rapid 24/7 response for Green Country homeowners. Mechanical Excellence." />
+        <meta property="og:title" content="Plumber West Seneca NY - West Seneca Plumbing Pros" />
+        <meta property="og:description" content="Expert plumbing services in West Seneca, NY. 24/7 emergency response for Western New York homeowners. Licensed & insured professionals." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://tulsa-plumbing-pros.com/" />
-        <meta property="og:image" content="input_file_1.png" />
+        <meta property="og:url" content="https://west-seneca-plumbing.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1607472586893-edb57bdc0739?auto=format&fit=crop&q=80&w=1200" />
       </Helmet>
 
       <Header />
@@ -115,18 +115,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              plumber tulsa ok Tulsa OK
-              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Tulsa Plumbing Pros</span>
+              Plumber West Seneca NY West Seneca
+              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">West Seneca Plumbing Pros</span>
             </>
           }
-          subtitle="Tulsa's trusted authority for high-performance infrastructure. We provide advanced slab leak detection, master drain restoration, and precision emergency repair. Mechanical Precision Mastercraft."
-          image="https://images.unsplash.com/photo-1607472586893-edb57bdc0739?auto=format&fit=crop&q=80&w=2000"
-          overlayImage="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&q=80&w=2000"
-          badge="TULSA MASTER PLUMBERS"
+          subtitle="West Seneca's trusted plumbing experts serving Western New York. We provide 24/7 emergency response, expert leak detection, drain cleaning, and professional plumbing repair for homes and businesses."
+          image="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&q=80&w=2000"
+          overlayImage="https://images.unsplash.com/photo-1581094271901-8022df4466f9?auto=format&fit=crop&q=80&w=2000"
+          badge="WEST SENECA MASTER PLUMBERS"
         />
         <Services />
         <WhyUs />
-        <TulsaPlumbingInfo />
+        <WestSenecaPlumbingInfo />
         <FAQ />
         <Contact />
         <RandomLinks />

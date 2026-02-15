@@ -12,6 +12,14 @@ const links = [
   {
     name: "Plumber San Francisco CA",
     url: "https://plumbersanfranciscoca.vercel.app/"
+  },
+  {
+    name: "Plumber Charlotte NC",
+    url: "https://plumbercharlottenc.vercel.app/"
+  },
+  {
+    name: "Plumber Tulsa OK",
+    url: "https://plumbertulsaok.vercel.app/"
   }
 ];
 

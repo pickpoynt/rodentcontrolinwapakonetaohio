@@ -11,10 +11,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mb-16 mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 uppercase tracking-tight">
-            Why Tulsa Trusts Our <span className="text-gold-400">Master Plumbers</span>
+            Why West Seneca Trusts Our <span className="text-gold-400">Master Plumbers</span>
           </h2>
           <p className="text-xl text-slate-400 leading-relaxed font-medium italic">
-            Protecting Green Country infrastructure with technical precision. We specialize in precision plumbing restoration and rapid emergency repair for Tulsa homeowners.
+            Protecting Western New York infrastructure with technical precision. We specialize in expert plumbing restoration and rapid emergency repair for West Seneca homeowners.
           </p>
         </div>
 
@@ -23,17 +23,17 @@ const WhyUs = () => {
             {
               icon: ShieldCheck,
               title: "Technical Precision",
-              description: "We utilize advanced infrastructure analytics to pinpoint failures with extreme accuracy, minimizing property impact during restoration."
+              description: "We utilize advanced diagnostics to pinpoint failures with extreme accuracy, minimizing property impact during restoration."
             },
             {
               icon: MapPin,
-              title: "Queen City Local",
-              description: "Our teams are local to Charlotte, meaning rapid response times when pipe failures and moisture signs appear in Mecklenburg County."
+              title: "West Seneca Local",
+              description: "Our teams are local to West Seneca, meaning rapid response times when plumbing failures and moisture signs appear in Erie County."
             },
             {
               icon: Calendar,
               title: "Emergency Response",
-              description: "Plumbing failures are constant threats. We offer priority dispatching for Charlotte system assessments and rapid restoration."
+              description: "Plumbing failures are constant threats. We offer priority dispatching for West Seneca system assessments and rapid restoration."
             },
             {
               icon: DollarSign,
@@ -56,11 +56,11 @@ const WhyUs = () => {
           ))}
         </div>
 
-        <div className="mt-20 p-10 rounded-[3rem] bg-gradient-to-br from-emerald-600 to-emerald-800 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl shadow-emerald-900/40 transform hover:scale-[1.02] transition-transform duration-500">
+        <div className="mt-20 p-10 rounded-[3rem] bg-gradient-to-br from-indigo-600 to-indigo-800 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl shadow-indigo-900/40 transform hover:scale-[1.02] transition-transform duration-500">
           <div className="max-w-xl">
             <h3 className="text-3xl font-bold text-white mb-4">Plumbing Emergency?</h3>
             <p className="text-blue-50 text-lg font-medium opacity-90">
-              Don't wait for structural damage. Our Charlotte master specialist team is ready to restore your systems 24/7.
+              Don't wait for structural damage. Our West Seneca specialist team is ready to restore your systems 24/7.
             </p>
           </div>
           <a
