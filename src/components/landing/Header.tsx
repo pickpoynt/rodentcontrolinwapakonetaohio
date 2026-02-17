@@ -15,8 +15,7 @@ const Header = () => {
   }, []);
 
   const navLinks = [
-    { name: "Sewer Repair", href: "#services" },
-    { name: "Trenchless Info", href: "#trenchless-info" },
+    { name: "Services", href: "#services" },
     { name: "Why Us", href: "#why-us" },
     { name: "FAQ", href: "#faq" },
     { name: "Contact", href: "#contact" },
@@ -38,10 +37,10 @@ const Header = () => {
             </div>
             <div>
               <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-emerald-950" : "text-white"}`}>
-                Fayetteville
+                Stamford
               </span>
               <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-emerald-600" : "text-emerald-400"}`}>
-                Leak Detection <span className="text-[10px] opacity-70">Pros</span>
+                Plumbing <span className="text-[10px] opacity-70">Pros</span>
               </span>
             </div>
           </div>
@@ -51,7 +50,7 @@ const Header = () => {
             <a href="#services" className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-blue-600" : "text-white/90 hover:text-white"}`}>
               Services
             </a>
-            <a href="#about" className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-blue-600" : "text-white/90 hover:text-white"}`}>
+            <a href="#why-us" className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-blue-600" : "text-white/90 hover:text-white"}`}>
               Why Us
             </a>
             <a href="#faq" className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-blue-600" : "text-white/90 hover:text-white"}`}>
@@ -96,7 +95,7 @@ const Header = () => {
             <a href="#services" className="text-lg font-bold tracking-wide hover:text-blue-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>
               Services
             </a>
-            <a href="#about" className="text-lg font-bold tracking-wide hover:text-blue-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>
+            <a href="#why-us" className="text-lg font-bold tracking-wide hover:text-blue-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>
               Why Us
             </a>
             <a href="#faq" className="text-lg font-bold tracking-wide hover:text-blue-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>

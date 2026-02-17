@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import FayettevilleLeakDetectionInfo from "@/components/landing/FayettevilleLeakDetectionInfo";
+import StamfordPlumbingInfo from "@/components/landing/StamfordPlumbingInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>water leak detection fayetteville ar</title>
-        <meta name="description" content="water leak detection fayetteville ar - Specialized non-invasive water leak detection, acoustic diagnostics & thermal imaging in Fayetteville, AR. Call (877) 792-1410 for local experts." />
-        <meta name="keywords" content="water leak detection fayetteville ar, Fayetteville leak repair, pipe leak detection Fayetteville, acoustic water detection Washington County, non-invasive plumbing Arkansas" />
-        <link rel="canonical" href="https://fayetteville-leak-pros.com/" />
+        <title>plumbers stamford ct</title>
+        <meta name="description" content="plumbers stamford ct - Expert residential and commercial plumbing services in Stamford, CT. Emergency repairs, water heaters, and drain cleaning. Call (877) 792-1410." />
+        <meta name="keywords" content="plumbers stamford ct, Stamford plumbing, emergency plumber Stamford, water heater repair Stamford, drain cleaning Fairfield County" />
+        <link rel="canonical" href="https://plumbers-stamford-ct.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Fayetteville Leak Detection Pros",
-            "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1200",
+            "name": "Plumber Stamford CT Pros",
+            "image": "https://images.unsplash.com/photo-1585129777170-0708579d4760?auto=format&fit=crop&q=80",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Fayetteville",
-              "addressRegion": "AR",
-              "postalCode": "72701",
+              "addressLocality": "Stamford",
+              "addressRegion": "CT",
+              "postalCode": "06901",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "36.0626",
-              "longitude": "-94.1574"
+              "latitude": "41.0534",
+              "longitude": "-73.5387"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Fayetteville, AR"
+              "name": "Stamford, CT"
             },
             "priceRange": "$$",
-            "description": "Professional non-invasive water leak detection services in Fayetteville, Arkansas. Specialized in acoustic mapping, pipe diagnostics, and structural protection for Northwest Arkansas property owners."
+            "description": "Professional plumbing services in Stamford, Connecticut. Specialized in leak detection, water heater repair, and emergency plumbing for Fairfield County residents."
           })}
         </script>
 
@@ -55,39 +55,39 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Technical Water Leak Detection",
+            "serviceType": "Plumbing Services",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Fayetteville Leak Detection Pros",
+              "name": "Plumber Stamford CT Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Fayetteville, Arkansas"
+              "name": "Stamford, Connecticut"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Fayetteville Leak Diagnostics Catalog",
+              "name": "Stamford Plumbing Catalog",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Acoustic Pipe Mapping"
+                    "name": "Emergency Plumbing"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Non-Invasive Moisture Identification"
+                    "name": "Water Heater Repair"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Washington County Infrastructure Diagnostics"
+                    "name": "Drain Cleaning"
                   }
                 }
               ]
@@ -96,11 +96,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="water leak detection fayetteville ar Location - Fayetteville Leak Detection Pros" />
-        <meta property="og:description" content="Expert non-invasive water leak detection in Fayetteville, Arkansas. Protecting Northwest Arkansas homes with advanced acoustic and thermal diagnostics." />
+        <meta property="og:title" content="plumbers stamford ct - Plumber Stamford CT Pros" />
+        <meta property="og:description" content="Expert plumbing services in Stamford, CT. Rapid response for emergencies, leaks, and installations in Fairfield County." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://fayetteville-leak-pros.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1200" />
+        <meta property="og:url" content="https://plumbers-stamford-ct.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1585129777170-0708579d4760?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -108,18 +108,18 @@ const Index = () => {
         <Hero
           title={
             <>
-              water leak detection fayetteville ar
-              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Fayetteville Leak Detection Pros</span>
+              plumbers stamford ct
+              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">Plumber Stamford CT Pros</span>
             </>
           }
-          subtitle="Fayetteville's premier authority for non-invasive water leak diagnostics. We utilize advanced acoustic mapping to pinpoint hidden leaks without destructive excavation. Supporting Northwest Arkansas structural integrity."
-          image="https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&q=80&w=2000"
-          overlayImage="https://images.unsplash.com/photo-1516216628859-9bccecad13fc?auto=format&fit=crop&q=80&w=2000"
-          badge="FAYETTEVILLE AUTHORIZED SPECIALISTS"
+          subtitle="Stamford's premier plumbing experts. We provide comprehensive residential and commercial plumbing services. Serving Fairfield County with integrity."
+          image="https://images.unsplash.com/photo-1585129777170-0708579d4760?auto=format&fit=crop&q=80"
+          overlayImage="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&q=80"
+          badge="STAMFORD LICENSED PLUMBERS"
         />
         <Services />
         <WhyUs />
-        <FayettevilleLeakDetectionInfo />
+        <StamfordPlumbingInfo />
         <FAQ />
         <Contact />
         <RandomLinks />

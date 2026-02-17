@@ -10,13 +10,13 @@ const Contact = () => {
             <div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 text-emerald-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
                 <Hammer className="w-4 h-4" />
-                FAYETTEVILLE LEAK DETECTION PROS
+                PLUMBER STAMFORD CT PROS
               </div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-                Schedule <span className="text-emerald-600">Fayetteville Service</span>
+                Schedule <span className="text-emerald-600">Stamford Service</span>
               </h2>
               <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-                Protect your Fayetteville property from hidden water leaks. Our specialized technical team provides rapid, professional solutions throughout Northwest Arkansas.
+                Protect your Stamford property from plumbing issues. Our specialized team provides rapid, professional solutions throughout Fairfield County.
               </p>
 
               <div className="space-y-8">
@@ -48,7 +48,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm font-bold text-emerald-600 uppercase tracking-widest mb-1">Service Area</p>
-                    <p className="text-xl font-bold text-slate-900">Fayetteville & NWA Region</p>
+                    <p className="text-xl font-bold text-slate-900">Stamford & Fairfield County</p>
                   </div>
                 </div>
               </div>
@@ -78,11 +78,11 @@ const Contact = () => {
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-slate-700 uppercase tracking-wider ml-1">Problem Type</label>
                   <select className="w-full bg-slate-50 border-slate-200 rounded-xl h-14 px-6 focus:ring-2 focus:ring-blue-500 transition-all outline-none font-medium">
-                    <option>Leak Repair</option>
+                    <option>Plumbing Issue</option>
                     <option>Clogged Drain</option>
                     <option>Water Heater</option>
-                    <option>Toilet Repair</option>
-                    <option>Emergency Plumbing</option>
+                    <option>Leak Detection</option>
+                    <option>Emergency Service</option>
                   </select>
                 </div>
                 <div className="space-y-2">
@@ -97,7 +97,7 @@ const Contact = () => {
                   Request Service
                 </Button>
                 <p className="text-center text-slate-500 text-sm italic font-medium">
-                  *24/7 Priority diagnostics for Fayetteville leak calls
+                  *24/7 Priority diagnostics for Stamford plumbing calls
                 </p>
               </form>
             </div>
