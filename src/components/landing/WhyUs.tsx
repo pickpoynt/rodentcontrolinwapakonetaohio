@@ -7,7 +7,7 @@ const WhyUs = () => {
       {/* Dynamic Background with Technical Texture */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/ultra-realistic-photo-of-a-licensed-plumber-perfor.jpeg"
+          src="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80"
           alt=""
           className="w-full h-full object-cover opacity-5 brightness-[0.2]"
         />
@@ -65,7 +65,7 @@ const WhyUs = () => {
           <div className="relative">
             <div className="aspect-square rounded-[3rem] overflow-hidden border-4 border-indigo-500/20 shadow-2xl shadow-indigo-500/20 relative group">
               <img
-                src="/ultra-realistic-photo-of-a-licensed-plumber-perfor(1).jpeg"
+                src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80"
                 alt="Turbeville Electronic Leak Detection"
                 className="w-full h-full object-cover opacity-80 transition-all duration-700 group-hover:scale-110"
               />

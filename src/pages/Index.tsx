@@ -26,7 +26,7 @@ const Index = () => {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Turbeville Slab Leak Pros",
-            "image": "/ultra-realistic-photo-of-a-licensed-plumber-perfor.jpeg",
+            "image": "https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
@@ -101,7 +101,7 @@ const Index = () => {
         <meta property="og:description" content="Professional electronic slab leak detection and restoration in Turbeville, SC. Protect your property with advanced diagnostics and master-grade plumbing." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://slab-leak-repair-turbeville.com/" />
-        <meta property="og:image" content="/ultra-realistic-photo-of-a-licensed-plumber-perfor.jpeg" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -114,7 +114,7 @@ const Index = () => {
             </>
           }
           subtitle="Turbeville's premier experts in master-grade electronic slab leak detection and foundation restoration. We design high-performance plumbing solutions tailored for the South Carolina Coastal Plain's shifting soil conditions, ensuring long-term structural integrity. Engineering excellence for Clarendon County."
-          image="/ultra-realistic-photo-of-a-licensed-plumber-perfor.jpeg"
+          image="https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80"
           overlayImage="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?auto=format&fit=crop&q=80"
           badge="TURBEVILLE SLAB LEAK RESTORATION SPECIALISTS"
         />
