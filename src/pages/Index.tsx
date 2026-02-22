@@ -17,7 +17,7 @@ const Index = () => {
         <title>cricket extermination Metropolis Illinois - Metropolis Cricket Control Pros</title>
         <meta name="description" content="cricket extermination Metropolis Illinois - Professional cricket extermination in Metropolis, IL. Licensed specialists providing rapid removal of crickets and long-term protection." />
         <meta name="keywords" content="cricket extermination Metropolis Illinois, cricket removal Metropolis IL, house cricket control Metropolis, field cricket exterminator Metropolis IL, pest control Metropolis IL" />
-        <link rel="canonical" href="https://cricketexterminationmetropolisillinois.com/" />
+        <link rel="canonical" href="https://cricketexterminationmetropolisillinois.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
@@ -25,8 +25,8 @@ const Index = () => {
             "@type": "LocalBusiness",
             "name": "Metropolis Cricket Control Pros",
             "image": "/1.jpeg",
-            "@id": "https://cricketexterminationmetropolisillinois.com/",
-            "url": "https://cricketexterminationmetropolisillinois.com/",
+            "@id": "https://cricketexterminationmetropolisillinois.vercel.app/",
+            "url": "https://cricketexterminationmetropolisillinois.vercel.app/",
             "telephone": "+13238801224",
             "address": {
               "@type": "PostalAddress",
@@ -78,7 +78,7 @@ const Index = () => {
         <meta property="og:title" content="cricket extermination Metropolis Illinois - Metropolis Cricket Control Pros" />
         <meta property="og:description" content="cricket extermination Metropolis Illinois - Expert cricket removal and protection services in Metropolis, IL." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://cricketexterminationmetropolisillinois.com/" />
+        <meta property="og:url" content="https://cricketexterminationmetropolisillinois.vercel.app/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
