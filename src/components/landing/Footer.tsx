@@ -14,12 +14,12 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Fulton Squirrel</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Fulton Earwig</span>
                 <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Pros Fulton</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic text-sm">
-              Fulton's specialized team for rapid squirrel mitigation and attic asset protection. We provide elite-grade structural exclusion and security services to restore your property's safety.
+              Fulton's specialized team for rapid earwig mitigation and moisture defense. We provide elite-grade barrier treatments and foundation protection to restore your property's safety.
             </p>
             <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
@@ -31,15 +31,15 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Wildlife Services</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Pest Services</h4>
             <ul className="space-y-4">
               {[
-                "Attic Exclusion",
-                "Roofline Sealing",
-                "Wiring Safety Audit",
-                "Humane Mitigation",
-                "Structural Damage",
-                "Insulation Cleanup"
+                "Barrier Treatment",
+                "Foundation Sealing",
+                "Moisture Audit",
+                "Interior Defense",
+                "Crawl Space Solution",
+                "Basement Drying"
               ].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2 group">
@@ -79,34 +79,35 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Support</p>
-                  <a href="mailto:SUPPORT@squirrelpestcontrolinfultonmd.vercel.app" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors lowercase tracking-tight">SUPPORT@squirrelpestcontrolinfultonmd.vercel.app</a>
+                  <a href="mailto:SUPPORT@EARWIGCONTROLFULTONMD.COM" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors lowercase tracking-tight">SUPPORT@EARWIGCONTROLFULTONMD.COM</a>
                 </div>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Wildlife Standards</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Pest Standards</h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-6 italic font-medium">
               We operate under strict pest mitigation protocols to ensure professional results while maintaining the ecological balance of Howard County and Fulton.
             </p>
             <div className="p-6 bg-white/5 rounded-2xl border border-white/10">
               <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-[0.2em] mb-2">Service Promise</p>
-              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Same-Day Attic Assessment Available in Fulton MD.</p>
+              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Same-Day Moisture Assessment Available in Fulton MD.</p>
             </div>
           </div>
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:row items-center justify-between gap-6 uppercase tracking-widest text-[10px] font-bold">
           <p className="text-slate-500 text-center md:text-left">
-            © {new Date().getFullYear()} Fulton Squirrel Control Pros. All rights reserved. Professional Wildlife Management & Squirrel Control.
+            © {new Date().getFullYear()} Fulton Earwig Control Pros. All rights reserved. Professional Pest Management & Earwig Control.
           </p>
           <div className="flex gap-8 items-center">
-            <a href="/lease" className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition-colors border border-indigo-400/30">Lease My Number</a>
+            <a href="/lease" className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition-colors border border-indigo-400/30">Lease my number ($19/mo)</a>
             <a href="#" className="text-slate-500 hover:text-indigo-400 transition-colors">Privacy Policy</a>
             <a href="#" className="text-slate-500 hover:text-indigo-400 transition-colors">Terms of Service</a>
           </div>
         </div>
+
       </div>
     </footer>
   );

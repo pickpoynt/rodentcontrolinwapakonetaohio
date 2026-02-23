@@ -4,22 +4,22 @@ const features = [
   {
     icon: Clock,
     title: "24/7 Rapid Response",
-    description: "Squirrel emergencies don't wait. Our Fulton team provides round-the-clock assessment and mitigation to stop attic damage immediately."
+    description: "Earwig clusters can be distressing. Our Fulton team provides round-the-clock assessment and barrier treatments to stop invasions immediately."
   },
   {
     icon: Hammer,
-    title: "Structural Exclusion",
-    description: "We focus on permanent solutions. Our certified techs use heavy-duty steel and sealants to ensure squirrels can't chew their way back in."
+    title: "Foundation Barrier",
+    description: "We focus on permanent exclusion. Our certified techs use industrial sealants and barriers to ensure earwigs can't find their way back in."
   },
   {
     icon: Award,
     title: "Maryland Licensed",
-    description: "Fully licensed and insured specifically for wildlife control in Howard County. We follow strict DNR protocols for humane removal."
+    description: "Fully licensed and insured specifically for pest control in Howard County. We follow strict environmental protocols for safe treatments."
   },
   {
     icon: ShieldCheck,
-    title: "Home Integrity",
-    description: "Beyond removal, we protect your wiring, insulation, and structural components from the hidden threats of rodent behavior."
+    title: "Moisture Defense",
+    description: "Beyond removal, we protect your basement, crawl spaces, and foundation from the moisture issues that attract pests."
   }
 ];
 
@@ -32,26 +32,27 @@ const WhyUs = () => {
             <div className="absolute -top-12 -left-12 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl" />
             <img
               src="/3.jpeg"
-              alt="Professional Squirrel Control Specialist"
+              alt="Professional Earwig Control Specialist"
               className="rounded-[3rem] shadow-2xl relative z-10 border border-white"
             />
             <div className="absolute -bottom-8 -right-8 bg-white p-8 rounded-3xl shadow-xl z-20 border border-slate-100 max-w-[240px]">
               <p className="text-3xl font-bold text-indigo-600 mb-1">100%</p>
-              <p className="text-sm font-bold text-slate-900 uppercase tracking-tight leading-tight">Exclusion Success Rate in Fulton</p>
+              <p className="text-sm font-bold text-slate-900 uppercase tracking-tight leading-tight">Barrier Success Rate in Fulton</p>
             </div>
           </div>
 
           <div>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-6 uppercase tracking-widest text-[10px] font-bold">
               <ShieldCheck className="w-4 h-4" />
-              Fulton Squirrel Control Excellence
+              Fulton Earwig Control Excellence
             </div>
             <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight leading-tight">
-              Why Howard County Trusts Our Squirrel Pros
+              Why Howard County Trusts Our Earwig Pros
             </h2>
             <p className="text-slate-600 text-lg mb-12 leading-relaxed italic font-medium">
-              We specialize in the intersection of Fulton's residential architecture and the local squirrel population. Our methods are persistent, structural, and designed for long-term peace of mind.
+              We specialize in the intersection of Fulton's humid climate and the local earwig population. Our methods are persistent, scientific, and designed for long-term peace of mind.
             </p>
+
 
             <div className="grid sm:grid-cols-2 gap-8">
               {features.map((feature, index) => (

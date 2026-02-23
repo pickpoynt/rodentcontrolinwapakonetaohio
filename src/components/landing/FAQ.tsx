@@ -3,24 +3,24 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "How do I know if squirrels are in my attic?",
-    answer: "Common signs include scurrying or scratching sounds during early morning or evening hours, gnaw marks on wood or wires, small entry holes in fascia boards, and peculiar odors from nesting materials."
+    question: "How do I know if earwigs are invading my home?",
+    answer: "Common signs include finding clusters of earwigs in damp areas like basements, bathrooms, or under kitchen sinks. You may also notice small, jagged holes in young garden plants or seedlings overnight."
   },
   {
-    question: "Will professional squirrel control keep them out for good?",
-    answer: "Yes, our 'Structural Exclusion' approach focuses on permanent solutions. We identify every potential entry point and seal them with chewing-resistant materials like high-grade steel mesh and industrial sealants."
+    question: "Do earwigs bite or cause structural damage?",
+    answer: "Earwigs do not bite humans, though they can use their pincers if handled. They don't cause structural damage like termites, but they are a major nuisance and can damage gardens and indoor plant life."
   },
   {
-    question: "Do you provide humane squirrel removal in Fulton MD?",
-    answer: "Absolutely. We follow Maryland DNR guidelines for humane wildlife management. Our preferred method is using one-way exclusion doors that allow squirrels to leave safely but prevent them from re-entering."
+    question: "How do you provide earwig control in Fulton MD?",
+    answer: "We use a combination of perimeter barrier treatments, foundation sealing, and moisture management. By addressing the damp conditions that attract earwigs, we create an environment that's naturally repellent to them."
   },
   {
-    question: "Can squirrels cause house fires?",
-    answer: "Unfortunately, yes. Squirrels have teeth that never stop growing, so they chew on hard materials—including electrical wiring. Stripped wires in the attic are a significant fire risk if not addressed immediately."
+    question: "Why are earwigs so common in Howard County?",
+    answer: "Howard County's humid climate and lush landscapes provide the perfect damp environments earwigs love. They thrive in mulch, leaf litter, and wood piles before seeking the moisture of your home's foundation."
   },
   {
-    question: "How long does the mitigation process take?",
-    answer: "Most assessments are completed within 24 hours. The full exclusion and removal process usually takes 3 to 7 days, depending on the severity of the infestation and the number of entry points needing reinforcement."
+    question: "How long does the treatment process take?",
+    answer: "Most assessments and initial barrier treatments are completed within 24 hours. The full moisture mitigation and foundation sealing process usually takes 2 to 4 days, depending on the property size."
   }
 ];
 
@@ -32,12 +32,13 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Squirrel pest control <span className="text-indigo-600">in Fulton MD FAQ</span>
+            Earwig control <span className="text-indigo-600">in Fulton MD FAQ</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Common questions about squirrel behavior, structural risks, and our professional exclusion process in Howard County.
+            Common questions about earwig behavior, moisture risks, and our professional barrier process in Howard County.
           </p>
         </div>
+
 
         <div className="max-w-3xl mx-auto space-y-4">
           {faqs.map((faq, index) => (

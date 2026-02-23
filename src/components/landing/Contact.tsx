@@ -17,14 +17,14 @@ const Contact = () => {
               <div>
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-6 uppercase tracking-widest text-[10px] font-bold">
                   <ShieldCheck className="w-4 h-4" />
-                  FULTON SQUIRREL PROS
+                  FULTON EARWIG PROS
                 </div>
                 <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
                   Secure Your Home <br />
-                  <span className="text-indigo-600">Squirrel pest control in Fulton MD</span>
+                  <span className="text-indigo-600">Earwig control Fulton MD</span>
                 </h2>
                 <p className="text-slate-600 text-lg leading-relaxed italic font-medium">
-                  Professional Howard County wildlife technicians ready to evict intruders and harden your home's structural integrity. 24/7 emergency response for immediate squirrel mitigation.
+                  Professional Howard County pest technicians ready to eliminate intruders and harden your home's foundation. 24/7 emergency response for immediate earwig mitigation.
                 </p>
               </div>
 
@@ -33,7 +33,7 @@ const Contact = () => {
                   <div className="w-12 h-12 rounded-2xl bg-indigo-600 flex items-center justify-center mb-4">
                     <Phone className="w-6 h-6 text-white" />
                   </div>
-                  <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] mb-1">SQUIRREL HOTLINE</p>
+                  <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] mb-1">EARWIG HOTLINE</p>
                   <a href="tel:3238801224" className="text-xl font-bold text-slate-900">(323) 880-1224</a>
                 </div>
                 <div className="p-6 bg-white rounded-3xl border border-slate-100 shadow-xl shadow-slate-200/50">
@@ -54,7 +54,7 @@ const Contact = () => {
                   <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-600/10 rounded-full blur-2xl" />
                   <h4 className="text-lg font-bold mb-2 uppercase tracking-tight">Leasing Opportunity</h4>
                   <p className="text-slate-400 text-sm leading-relaxed mb-6 italic">
-                    Are you a Maryland wildlife specialist? Replace this number with your business line for <span className="text-white font-bold">$19/month</span>.
+                    Are you a Maryland pest specialist? Replace this number with your business line for <span className="text-white font-bold">$19/month</span>.
                   </p>
                   <Button variant="outline" className="border-indigo-500/30 text-indigo-400 hover:bg-indigo-600 hover:text-white transition-all rounded-xl uppercase tracking-widest text-[10px] font-bold" asChild>
                     <a href="/lease">Claim This Number</a>
@@ -81,12 +81,13 @@ const Contact = () => {
                 <div className="space-y-2">
                   <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest ml-1">Mitigation Type</label>
                   <select className="w-full h-14 rounded-2xl bg-slate-50 border-slate-100 px-6 font-medium text-slate-600 focus:outline-none focus:ring-2 focus:ring-indigo-500">
-                    <option>Attic Intrusion Emergency</option>
-                    <option>Structural Exclusion Service</option>
-                    <option>Insulation Damage Restore</option>
-                    <option>Wiring Safety Audit</option>
+                    <option>Interior Earwig Emergency</option>
+                    <option>Barrier Treatment Service</option>
+                    <option>Moisture Control Audit</option>
+                    <option>Foundation Sealing</option>
                   </select>
                 </div>
+
                 <div className="space-y-2">
                   <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest ml-1">Situation Details</label>
                   <Textarea placeholder="Describe the sounds or signs you've noticed..." className="min-h-[150px] rounded-3xl bg-slate-50 border-slate-100 p-6 font-medium focus:ring-indigo-500" />

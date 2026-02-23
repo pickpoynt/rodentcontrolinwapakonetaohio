@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import FultonSquirrelControlInfo from "@/components/landing/FultonSquirrelControlInfo";
+import FultonEarwigControlInfo from "@/components/landing/FultonEarwigControlInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -14,19 +14,19 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>Squirrel pest control in Fulton MD - Fulton Squirrel Control Pros</title>
-        <meta name="description" content="Squirrel pest control in Fulton MD - Professional squirrel removal and home protection in Fulton. Specialized wildlife experts providing humane exclusion and property securing." />
-        <meta name="keywords" content="Squirrel pest control in Fulton MD, squirrel removal Fulton, attic wildlife exclusion Fulton, rodent control Howard County, humane squirrel trapping Fulton MD" />
-        <link rel="canonical" href="https://squirrelpestcontrolinfultonmd.vercel.app/" />
+        <title>Earwig control Fulton MD - Fulton Earwig Control Pros</title>
+        <meta name="description" content="Earwig control Fulton MD - Professional earwig extermination and barrier treatments in Fulton. Specialized pest experts providing rapid moisture control and property protection." />
+        <meta name="keywords" content="Earwig control Fulton MD, earwig exterminator Fulton, basement pest control Fulton, moisture control Howard County, pincher bug removal Fulton MD" />
+        <link rel="canonical" href="https://earwigcontrolfultonmd.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Fulton Squirrel Control Pros",
+            "name": "Fulton Earwig Control Pros",
             "image": "/1.jpeg",
-            "@id": "https://squirrelpestcontrolinfultonmd.vercel.app/",
-            "url": "https://squirrelpestcontrolinfultonmd.vercel.app/",
+            "@id": "https://earwigcontrolfultonmd.vercel.app/",
+            "url": "https://earwigcontrolfultonmd.vercel.app/",
             "telephone": "+13238801224",
             "address": {
               "@type": "PostalAddress",
@@ -54,10 +54,10 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Squirrel Pest Control & Attic Exclusion",
+            "serviceType": "Earwig Control & Moisture Management",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Fulton Squirrel Control Pros"
+              "name": "Fulton Earwig Control Pros"
             },
             "areaServed": {
               "@type": "City",
@@ -65,20 +65,20 @@ const Index = () => {
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Squirrel Services",
+              "name": "Earwig Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Attic Wildlife Exclusion" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Humane Squirrel Trapping" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Structural Damage Restoration" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Barrier Treatments" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Moisture Assessment" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Foundation Sealing" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="Squirrel pest control in Fulton MD - Fulton Squirrel Control Pros" />
-        <meta property="og:description" content="Squirrel pest control in Fulton MD - Expert squirrel removal and attic exclusion services in Fulton, MD." />
+        <meta property="og:title" content="Earwig control Fulton MD - Fulton Earwig Control Pros" />
+        <meta property="og:description" content="Earwig control Fulton MD - Expert earwig extermination and moisture management services in Fulton, MD." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://squirrelpestcontrolinfultonmd.vercel.app/" />
+        <meta property="og:url" content="https://earwigcontrolfultonmd.vercel.app/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -87,19 +87,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              Squirrel pest control <br />
+              Earwig control <br />
               <span className="text-white drop-shadow-sm uppercase">in Fulton MD</span>
             </>
           }
-          subtitle="Fulton's specialized experts in professional squirrel pest control and attic asset protection. We provide rapid-response removal, structural exclusion, and property securing to safeguard your home from destructive rodents. Available 24/7."
+          subtitle="Fulton's specialized experts in professional earwig pest control and moisture defense. We provide rapid-response barrier treatments, foundation sealing, and property protection to safeguard your home from humid-weather pests. Available 24/7."
           image="/1.jpeg"
           overlayImage="/2.jpeg"
-          badge="FULTON SQUIRREL PROS"
+          badge="FULTON EARWIG PROS"
           phone="3238801224"
         />
         <Services />
         <WhyUs />
-        <FultonSquirrelControlInfo />
+        <FultonEarwigControlInfo />
         <Contact />
         <FAQ />
         <RandomLinks />
@@ -111,3 +111,4 @@ const Index = () => {
 };
 
 export default Index;
+
