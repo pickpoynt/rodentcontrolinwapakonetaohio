@@ -3,23 +3,23 @@ import { ShieldCheck, Clock, Award, Hammer } from "lucide-react";
 const features = [
   {
     icon: Clock,
-    title: "Timely Project Delivery",
-    description: "Montana's seasons are short. Our team provides efficient, scheduled restoration to ensure your project is completed during the optimal weather window."
+    title: "Rapid Emergency Response",
+    description: "Electrical issues can't wait. Our Marietta team provides fast assessment and repair to ensure your home remains safe and powered 24/7."
   },
   {
     icon: Hammer,
-    title: "Expert Craftsmanship",
-    description: "We are log home specialists. Our certified techs use traditional methods and modern science to restore your home's original beauty and strength."
+    title: "Master Craftsmanship",
+    description: "We are electrical specialists. Our licensed techs use premium hardware and precision methods to ensure your system's longevity."
   },
   {
     icon: Award,
-    title: "Montana Trusted",
-    description: "Fully licensed and insured specifically for log home restoration in Montana. We understand the unique challenges of the Big Sky climate."
+    title: "Marietta Certified",
+    description: "Fully licensed and insured specifically for residential electrical work in Georgia. We follow strict safety protocols for all installations."
   },
   {
     icon: ShieldCheck,
-    title: "Structural Integrity",
-    description: "Our focus is on the long-term health of your log stack. We identify and fix underlying issues to prevent future rot and degradation."
+    title: "Safety First Guarantee",
+    description: "Our focus is on your family's safety. We identify hidden hazards and fix underlying electrical issues to prevent future fires."
   }
 ];
 
@@ -32,25 +32,25 @@ const WhyUs = () => {
             <div className="absolute -top-12 -left-12 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl" />
             <img
               src="/3.jpeg"
-              alt="Professional Log Home Restoration Montana"
+              alt="Professional Circuit Breaker Installation Marietta"
               className="rounded-[3rem] shadow-2xl relative z-10 border border-white"
             />
             <div className="absolute -bottom-8 -right-8 bg-white p-8 rounded-3xl shadow-xl z-20 border border-slate-100 max-w-[240px]">
               <p className="text-3xl font-bold text-indigo-600 mb-1">100%</p>
-              <p className="text-sm font-bold text-slate-900 uppercase tracking-tight leading-tight">Preservation Success Rate in Montana</p>
+              <p className="text-sm font-bold text-slate-900 uppercase tracking-tight leading-tight">Electrical Safety Rate in Marietta GA</p>
             </div>
           </div>
 
           <div>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-6 uppercase tracking-widest text-[10px] font-bold">
               <ShieldCheck className="w-4 h-4" />
-              Montana Log Restoration Excellence
+              Marietta Electrical Excellence
             </div>
             <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight leading-tight">
-              Why Montana Trusts Our Log Restoration Pros
+              Why Marietta Trusts Our Circuit Breaker Pros
             </h2>
             <p className="text-slate-600 text-lg mb-12 leading-relaxed italic font-medium">
-              We specialize in the intersection of Montana's rugged environment and traditional log home architecture. Our methods are persistent, scientific, and designed for long-term peace of mind.
+              We specialize in the intersection of Marietta's local infrastructure and advanced electrical technology. Our methods are precise, safe, and designed for long-term peace of mind.
             </p>
 
 
@@ -72,7 +72,7 @@ const WhyUs = () => {
               <div className="flex items-center gap-6">
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Ready to protect your home?</p>
-                  <h4 className="text-2xl font-bold text-slate-900 uppercase tracking-tight leading-none">Call Montana's Best</h4>
+                  <h4 className="text-2xl font-bold text-slate-900 uppercase tracking-tight leading-none">Call Marietta's Best</h4>
                 </div>
                 <a
                   href="tel:8449012684"
@@ -88,6 +88,7 @@ const WhyUs = () => {
     </section>
   );
 };
+
 
 
 export default WhyUs;

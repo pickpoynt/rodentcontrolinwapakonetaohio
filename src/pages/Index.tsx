@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import MontanaLogHomeInfo from "@/components/landing/MontanaLogHomeInfo";
+import MariettaCircuitBreakerInfo from "@/components/landing/MariettaCircuitBreakerInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -14,32 +14,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>log home restoration montana - Montana Log Home Restoration Pros</title>
-        <meta name="description" content="Professional log home restoration montana. Expert log house repair, chinking, staining, and media blasting in Montana. Call 8449012684 today!" />
-        <meta name="keywords" content="log home restoration montana, log cabin repair Montana, chinking services Montana, log home staining Montana, media blasting Montana" />
-        <link rel="canonical" href="https://loghomerestorationmontana.vercel.app/" />
+        <title>circuit breaker installation marietta ga - Marietta Circuit Breaker Pros</title>
+        <meta name="description" content="Professional circuit breaker installation marietta ga. Expert electrical panel upgrades, safety inspections, and circuit diagnostic services in Marietta. Call 8449012684!" />
+        <meta name="keywords" content="circuit breaker installation marietta ga, electrical panel upgrade Marietta, circuit breaker replacement Marietta, emergency electrician Marietta GA, electrical safety inspection Marietta" />
+        <link rel="canonical" href="https://circuitbreakerinstallationmariettaga.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Montana Log Home Restoration Pros",
+            "name": "Marietta Circuit Breaker Pros",
             "image": "/1.jpeg",
-            "@id": "https://loghomerestorationmontana.vercel.app/",
-            "url": "https://loghomerestorationmontana.vercel.app/",
+            "@id": "https://circuitbreakerinstallationmariettaga.vercel.app/",
+            "url": "https://circuitbreakerinstallationmariettaga.vercel.app/",
             "telephone": "+18449012684",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Main St",
-              "addressLocality": "Helena",
-              "addressRegion": "MT",
-              "postalCode": "59601",
+              "addressLocality": "Marietta",
+              "addressRegion": "GA",
+              "postalCode": "30060",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "46.5891",
-              "longitude": "-112.0391"
+              "latitude": "33.9526",
+              "longitude": "-84.5499"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -54,32 +54,32 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Log Home Restoration & Log Cabin Repair",
+            "serviceType": "Circuit Breaker Installation & Electrical Panel Upgrades",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Montana Log Home Restoration Pros"
+              "name": "Marietta Circuit Breaker Pros"
             },
             "areaServed": {
-              "@type": "State",
-              "name": "Montana"
+              "@type": "City",
+              "name": "Marietta, GA"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Log Home Restoration Services",
+              "name": "Electrical Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Log Home Stripping & Refinishing" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Log Rot Repair & Replacement" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Chinking & Caulking" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Log Home Staining & Sealing" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Main Breaker Replacement" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Electrical Panel Upgrades" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AFCI/GFCI Breaker Installation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Safety Inspections" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="log home restoration montana - Montana Log Home Restoration Pros" />
-        <meta property="og:description" content="Expert log home restoration and log cabin repair services across Montana. Media blasting, chinking, and staining especialistas." />
+        <meta property="og:title" content="circuit breaker installation marietta ga - Marietta Circuit Breaker Pros" />
+        <meta property="og:description" content="Expert circuit breaker installation and electrical panel services in Marietta, GA. Our professional electricians ensure your home's safety and power efficiency." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://loghomerestorationmontana.vercel.app/" />
+        <meta property="og:url" content="https://circuitbreakerinstallationmariettaga.vercel.app/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -88,19 +88,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              Log Home <br />
-              <span className="text-white drop-shadow-sm uppercase">Restoration in Montana</span>
+              Circuit Breaker <br />
+              <span className="text-white drop-shadow-sm uppercase">Installation in Marietta GA</span>
             </>
           }
-          subtitle="Montana's premier specialists in log home restoration montana. We provide expert log cabin repair, professional staining, chinking, and media blasting to preserve and protect your mountain retreat. Dedicated to preserving Montana's rustic heritage. Available 24/7."
+          subtitle="Marietta's trusted specialists in professional circuit breaker installation marietta ga. We provide expert panel upgrades, precision diagnostics, and high-performance electrical solutions to protect your home and enhance your power infrastructure. Dedicated to Marietta's safety. Available 24/7."
           image="/1.jpeg"
           overlayImage="/2.jpeg"
-          badge="MONTANA LOG HOME RESTORATION PROS"
+          badge="MARIETTA CIRCUIT BREAKER PROS"
           phone="8449012684"
         />
         <Services />
         <WhyUs />
-        <MontanaLogHomeInfo />
+        <MariettaCircuitBreakerInfo />
         <Contact />
         <FAQ />
 
@@ -123,6 +123,7 @@ const Index = () => {
     </div>
   );
 };
+
 
 export default Index;
 

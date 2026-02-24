@@ -3,23 +3,23 @@ import { ShieldCheck, Search, Activity, Sprout, Home, Zap } from "lucide-react";
 const servicesList = [
   {
     icon: Home,
-    title: "Media Blasting",
-    description: "Our log home restoration montana experts use eco-friendly media blasting to safely remove old finishes and prepare logs for new treatment."
+    title: "Full Panel Upgrades",
+    description: "Our circuit breaker installation marietta ga experts provide complete electrical panel replacements to support modern home power demands safely."
   },
   {
     icon: Search,
-    title: "Chinking & Caulking",
-    description: "High-performance chinking services in Montana to seal gaps, improve energy efficiency, and prevent pest intrusion in your log structure."
+    title: "Precision Diagnostics",
+    description: "Advanced troubleshooting to identify why your breakers are tripping and providing long-term solutions for electrical stability in Marietta."
   },
   {
     icon: ShieldCheck,
-    title: "Log Repair & Replacement",
-    description: "Specialized repair for log rot and structural damage caused by Montana's extreme weather, ensuring your home's longevity."
+    title: "Safety Inspections",
+    description: "Comprehensive audits of your electrical system to ensure compliance with Georgia electrical codes and modern safety standards."
   },
   {
     icon: Activity,
-    title: "Staining & Sealing",
-    description: "Professional staining and UV protection specifically formulated for Montana's climate to keep your log home beautiful and resilient."
+    title: "Sub-Panel Installation",
+    description: "Adding extra capacity for home additions, EV chargers, or specialized equipment with professional sub-panel integration."
   }
 ];
 
@@ -29,12 +29,13 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600">log home restoration montana</span>
+            Expert <span className="text-indigo-600">circuit breaker installation marietta ga</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Comprehensive preservation solutions designed for Montana's unique log home architecture. We protect your mountain retreat from the elements.
+            Comprehensive electrical solutions designed for Marietta's unique residential landscape. We protect your home's safety and power efficiency.
           </p>
         </div>
+
 
 
 

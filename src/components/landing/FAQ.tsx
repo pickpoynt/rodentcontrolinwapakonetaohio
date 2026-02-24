@@ -3,24 +3,25 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "How often does a log home in Montana need restoration?",
-    answer: "Typically, log homes in Montana should be inspected every 2-3 years and may need full staining or resealing every 4-7 years, depending on UV exposure and the quality of previous treatments."
+    question: "How often should I have my electrical panel inspected in Marietta?",
+    answer: "For homes in Marietta, we recommend a professional electrical safety inspection every 3-5 years, or immediately if you notice flickering lights, buzzing sounds, or frequently tripping breakers."
   },
   {
-    question: "What is media blasting and why is it used?",
-    answer: "Media blasting uses eco-friendly materials like corn cob or glass beads to safely strip old, failing finishes from logs. It's the most effective way to prepare the surface for new stains without damaging the wood."
+    question: "What are the benefits of upgrading to a modern circuit breaker?",
+
+    answer: "Modern circuit breakers provide superior protection against electrical fires through AFCI (Arc Fault Circuit Interrupter) and GFCI (Ground Fault Circuit Interrupter) technology, and can handle the higher power demands of today's appliances."
   },
   {
-    question: "Do you provide log home restoration montana services year-round?",
-    answer: "While inspections and some repairs can be done year-round, stripping and staining are best performed during the warmer months (typically late spring through early fall) to ensure proper drying and bonding."
+    question: "How long does a circuit breaker installation marietta ga typically take?",
+    answer: "A standard circuit breaker replacement can take as little as 30 minutes, while a complete panel upgrade usually takes a full day (8-10 hours) to ensure everything is code-compliant and safely integrated."
   },
   {
-    question: "Can you fix logs that have already started to rot?",
-    answer: "Yes. We specialize in log repair and replacement. We can remove the rotted sections and replace them with new, structurally sound logs that match your existing home's architecture."
+    question: "Can I replace a circuit breaker myself?",
+    answer: "No. Electrical work is extremely dangerous and requires specialized knowledge of load balancing and safety protocols. In Marietta, electrical work must be performed by a licensed professional to ensure insurance coverage and safety."
   },
   {
-    question: "How do you prevent pests from entering my log home?",
-    answer: "We use high-quality chinking and caulking to seal all gaps between logs, around windows, and at corners. This not only improves energy efficiency but also creates a barrier against insects and rodents."
+    question: "Will my power be off during the installation?",
+    answer: "Yes, for safety reasons, we must disconnect the main power while working on the panel. We will coordinate with you to minimize disruption and ensure your power is restored as quickly as possible."
   }
 ];
 
@@ -32,12 +33,13 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Restoration <span className="text-indigo-600">in Montana FAQ</span>
+            Electrical <span className="text-indigo-600">in Marietta FAQ</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Common questions about log home preservation, media blasting, and our professional restoration process in Montana.
+            Common questions about circuit breaker installation, panel upgrades, and electrical safety in Marietta.
           </p>
         </div>
+
 
 
 
