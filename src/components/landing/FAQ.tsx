@@ -3,24 +3,24 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "How quickly can you respond to water damage in Josephine?",
-    answer: "We offer 24/7 emergency response in Josephine. Our technicians typically arrive on-site within 60-90 minutes of your call to begin extraction and prevent further damage."
+    question: "How often does a log home in Montana need restoration?",
+    answer: "Typically, log homes in Montana should be inspected every 2-3 years and may need full staining or resealing every 4-7 years, depending on UV exposure and the quality of previous treatments."
   },
   {
-    question: "Is water damage restoration covered by my insurance?",
-    answer: "Most homeowners' insurance policies cover water damage from internal sources like burst pipes. We work directly with your insurance provider to handle the claims process and documentation."
+    question: "What is media blasting and why is it used?",
+    answer: "Media blasting uses eco-friendly materials like corn cob or glass beads to safely strip old, failing finishes from logs. It's the most effective way to prepare the surface for new stains without damaging the wood."
   },
   {
-    question: "How do you provide water damage restoration josephine tx?",
-    answer: "We use a combination of industrial-grade extraction, high-velocity drying equipment, and advanced moisture monitoring. By addressing the water immediately, we prevent structural rot and mold growth."
+    question: "Do you provide log home restoration montana services year-round?",
+    answer: "While inspections and some repairs can be done year-round, stripping and staining are best performed during the warmer months (typically late spring through early fall) to ensure proper drying and bonding."
   },
   {
-    question: "What are the first steps I should take if my home floods?",
-    answer: "If safe, shut off the main water valve and electricity to the affected area. Avoid standing in water if electricity is still on. Call our emergency line immediately for professional extraction."
+    question: "Can you fix logs that have already started to rot?",
+    answer: "Yes. We specialize in log repair and replacement. We can remove the rotted sections and replace them with new, structurally sound logs that match your existing home's architecture."
   },
   {
-    question: "How long does the structural drying process typically take?",
-    answer: "Most properties take between 3 to 5 days to reach professional dry standards. We monitor moisture levels throughout the process to ensure every structural element is completely recovered."
+    question: "How do you prevent pests from entering my log home?",
+    answer: "We use high-quality chinking and caulking to seal all gaps between logs, around windows, and at corners. This not only improves energy efficiency but also creates a barrier against insects and rodents."
   }
 ];
 
@@ -32,12 +32,13 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Restoration <span className="text-indigo-600">in Josephine TX FAQ</span>
+            Restoration <span className="text-indigo-600">in Montana FAQ</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Common questions about water damage recovery, insurance claims, and our professional restoration process in Josephine.
+            Common questions about log home preservation, media blasting, and our professional restoration process in Montana.
           </p>
         </div>
+
 
 
         <div className="max-w-3xl mx-auto space-y-4">

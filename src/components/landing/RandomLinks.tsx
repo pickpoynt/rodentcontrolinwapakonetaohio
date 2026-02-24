@@ -1,24 +1,26 @@
 const links = [
   { text: "Earwig Exterminator Denver", url: "https://earwigexterminatordenver.vercel.app/" },
   { text: "Centipede Repellent Hawaii", url: "https://centipederepellenthawaii.vercel.app/" },
-  { text: "Pest Control South Point Ohio", url: "https://pestcontrolsouthpointohio.vercel.app/" },
-  { text: "Rodent Control Corvallis Oregon", url: "https://rodentcontrolcorvallisoregon.vercel.app/" },
+  { text: "Pest Control South Point", url: "https://pestcontrolsouthpointohio.vercel.app/" },
+  { text: "Rodent Control Corvallis", url: "https://rodentcontrolcorvallisoregon.vercel.app/" },
   { text: "Spider Control La Grange", url: "https://brownreclusespidercontrollagrange.vercel.app/" },
   { text: "Termite Inspection Burbank", url: "https://termiteinspectionburbank.vercel.app/" },
   { text: "Coyote Control McCook", url: "https://coyotecontrolmccookne.vercel.app/" },
-  { text: "Gopher Control Frankenmuth", url: "https://gophercontrolfrankenmuthmi.vercel.app/" }
+  { text: "Gopher Control Frankenmuth", url: "https://gophercontrolfrankenmuthmi.vercel.app/" },
+  { text: "Earwig Control Fulton", url: "https://earwigcontrolfultonmd.vercel.app/" },
+  { text: "Leaking Pipe Repair Modesto", url: "https://leakingpiperepairinmodesto.vercel.app/" }
 ];
 
 const RandomLinks = () => {
   // Take 4 links as requested
-  const selectedLinks = links.sort(() => 0.5 - Math.random()).slice(0, 4);
+  const selectedLinks = [...links].sort(() => 0.5 - Math.random()).slice(0, 4);
 
   return (
     <div className="py-24 bg-white border-t border-slate-100">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h3 className="text-xl font-bold text-slate-900 mb-8 uppercase tracking-widest text-center">
-            Regional Wildlife Partners
+            Industry Partners
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {selectedLinks.map((link, index) => (
@@ -38,5 +40,6 @@ const RandomLinks = () => {
     </div>
   );
 };
+
 
 export default RandomLinks;

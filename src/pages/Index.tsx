@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import JosephineWaterDamageInfo from "@/components/landing/JosephineWaterDamageInfo";
+import MontanaLogHomeInfo from "@/components/landing/MontanaLogHomeInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -14,32 +14,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>water damage restoration josephine tx</title>
-        <meta name="description" content="Professional water damage restoration, emergency flood cleanup, and mold remediation in Josephine, TX. Expert technicians available 24/7." />
-        <meta name="keywords" content="water damage restoration josephine tx, emergency water removal Josephine, flood cleanup Josephine TX, mold remediation Josephine, water extraction Josephine" />
-        <link rel="canonical" href="https://waterdamagerestorationjosephinetx.vercel.app/" />
+        <title>log home restoration montana - Montana Log Home Restoration Pros</title>
+        <meta name="description" content="Professional log home restoration montana. Expert log house repair, chinking, staining, and media blasting in Montana. Call 8449012684 today!" />
+        <meta name="keywords" content="log home restoration montana, log cabin repair Montana, chinking services Montana, log home staining Montana, media blasting Montana" />
+        <link rel="canonical" href="https://loghomerestorationmontana.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Josephine Water Damage Pros",
+            "name": "Montana Log Home Restoration Pros",
             "image": "/1.jpeg",
-            "@id": "https://waterdamagerestorationjosephinetx.vercel.app/",
-            "url": "https://waterdamagerestorationjosephinetx.vercel.app/",
-            "telephone": "+13802660944",
+            "@id": "https://loghomerestorationmontana.vercel.app/",
+            "url": "https://loghomerestorationmontana.vercel.app/",
+            "telephone": "+18449012684",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Main St",
-              "addressLocality": "Josephine",
-              "addressRegion": "TX",
-              "postalCode": "75164",
+              "addressLocality": "Helena",
+              "addressRegion": "MT",
+              "postalCode": "59601",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "33.0612",
-              "longitude": "-96.3150"
+              "latitude": "46.5891",
+              "longitude": "-112.0391"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -54,31 +54,32 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Water Damage Restoration & Flood Cleanup",
+            "serviceType": "Log Home Restoration & Log Cabin Repair",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Josephine Water Damage Pros"
+              "name": "Montana Log Home Restoration Pros"
             },
             "areaServed": {
-              "@type": "City",
-              "name": "Josephine, TX"
+              "@type": "State",
+              "name": "Montana"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Water Damage Services",
+              "name": "Log Home Restoration Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Water Extraction" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Flood Damage Repair" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mold Mitigation" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Log Home Stripping & Refinishing" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Log Rot Repair & Replacement" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Chinking & Caulking" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Log Home Staining & Sealing" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="water damage restoration josephine tx" />
-        <meta property="og:description" content="Expert water damage restoration and emergency flood cleanup services in Josephine, TX." />
+        <meta property="og:title" content="log home restoration montana - Montana Log Home Restoration Pros" />
+        <meta property="og:description" content="Expert log home restoration and log cabin repair services across Montana. Media blasting, chinking, and staining especialistas." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://waterdamagerestorationjosephinetx.vercel.app/" />
+        <meta property="og:url" content="https://loghomerestorationmontana.vercel.app/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -87,19 +88,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              Water Damage <br />
-              <span className="text-white drop-shadow-sm uppercase">Restoration in Josephine TX</span>
+              Log Home <br />
+              <span className="text-white drop-shadow-sm uppercase">Restoration in Montana</span>
             </>
           }
-          subtitle="Josephine's specialized experts in professional water damage restoration and emergency structural drying. We provide rapid-response flood cleanup, mold remediation, and property protection to safeguard your home after plumbing failures or storms. Available 24/7."
+          subtitle="Montana's premier specialists in log home restoration montana. We provide expert log cabin repair, professional staining, chinking, and media blasting to preserve and protect your mountain retreat. Dedicated to preserving Montana's rustic heritage. Available 24/7."
           image="/1.jpeg"
           overlayImage="/2.jpeg"
-          badge="JOSEPHINE WATER DAMAGE PROS"
-          phone="3802660944"
+          badge="MONTANA LOG HOME RESTORATION PROS"
+          phone="8449012684"
         />
         <Services />
         <WhyUs />
-        <JosephineWaterDamageInfo />
+        <MontanaLogHomeInfo />
         <Contact />
         <FAQ />
 
@@ -124,4 +125,5 @@ const Index = () => {
 };
 
 export default Index;
+
 

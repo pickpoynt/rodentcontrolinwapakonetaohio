@@ -3,23 +3,23 @@ import { ShieldCheck, Clock, Award, Hammer } from "lucide-react";
 const features = [
   {
     icon: Clock,
-    title: "24/7 Rapid Response",
-    description: "Water damage can be distressing. Our Josephine team provides round-the-clock assessment and extraction to stop damage immediately."
+    title: "Timely Project Delivery",
+    description: "Montana's seasons are short. Our team provides efficient, scheduled restoration to ensure your project is completed during the optimal weather window."
   },
   {
     icon: Hammer,
-    title: "Structural Restoration",
-    description: "We focus on permanent recovery. Our certified techs use industrial equipment to ensure your home is fully dried and restored."
+    title: "Expert Craftsmanship",
+    description: "We are log home specialists. Our certified techs use traditional methods and modern science to restore your home's original beauty and strength."
   },
   {
     icon: Award,
-    title: "Texas Certified",
-    description: "Fully licensed and insured specifically for water restoration in Josephine. We follow strict IICRC protocols for safe recovery."
+    title: "Montana Trusted",
+    description: "Fully licensed and insured specifically for log home restoration in Montana. We understand the unique challenges of the Big Sky climate."
   },
   {
     icon: ShieldCheck,
-    title: "Insurance Assistance",
-    description: "Beyond restoration, we help you navigate the insurance claims process to ensure you get the coverage you deserve."
+    title: "Structural Integrity",
+    description: "Our focus is on the long-term health of your log stack. We identify and fix underlying issues to prevent future rot and degradation."
   }
 ];
 
@@ -32,25 +32,25 @@ const WhyUs = () => {
             <div className="absolute -top-12 -left-12 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl" />
             <img
               src="/3.jpeg"
-              alt="Professional Water Damage Restoration Specialist"
+              alt="Professional Log Home Restoration Montana"
               className="rounded-[3rem] shadow-2xl relative z-10 border border-white"
             />
             <div className="absolute -bottom-8 -right-8 bg-white p-8 rounded-3xl shadow-xl z-20 border border-slate-100 max-w-[240px]">
               <p className="text-3xl font-bold text-indigo-600 mb-1">100%</p>
-              <p className="text-sm font-bold text-slate-900 uppercase tracking-tight leading-tight">Restoration Success Rate in Josephine</p>
+              <p className="text-sm font-bold text-slate-900 uppercase tracking-tight leading-tight">Preservation Success Rate in Montana</p>
             </div>
           </div>
 
           <div>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-6 uppercase tracking-widest text-[10px] font-bold">
               <ShieldCheck className="w-4 h-4" />
-              Josephine Water Restoration Excellence
+              Montana Log Restoration Excellence
             </div>
             <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight leading-tight">
-              Why Josephine Trusts Our Restoration Pros
+              Why Montana Trusts Our Log Restoration Pros
             </h2>
             <p className="text-slate-600 text-lg mb-12 leading-relaxed italic font-medium">
-              We specialize in the intersection of Josephine's local infrastructure and emergency water response. Our methods are persistent, scientific, and designed for long-term peace of mind.
+              We specialize in the intersection of Montana's rugged environment and traditional log home architecture. Our methods are persistent, scientific, and designed for long-term peace of mind.
             </p>
 
 
@@ -72,13 +72,13 @@ const WhyUs = () => {
               <div className="flex items-center gap-6">
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Ready to protect your home?</p>
-                  <h4 className="text-2xl font-bold text-slate-900 uppercase tracking-tight leading-none">Call Josephine's Best</h4>
+                  <h4 className="text-2xl font-bold text-slate-900 uppercase tracking-tight leading-none">Call Montana's Best</h4>
                 </div>
                 <a
-                  href="tel:3802660944"
+                  href="tel:8449012684"
                   className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-2xl font-bold uppercase tracking-widest text-sm transition-all shadow-lg shadow-indigo-900/20 hover:-translate-y-1 inline-flex items-center justify-center"
                 >
-                  (380) 266-0944
+                  (844) 901-2684
                 </a>
               </div>
             </div>
@@ -88,5 +88,6 @@ const WhyUs = () => {
     </section>
   );
 };
+
 
 export default WhyUs;
