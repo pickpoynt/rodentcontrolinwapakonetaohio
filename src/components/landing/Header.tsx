@@ -22,33 +22,33 @@ const Header = () => {
               <ShieldCheck className={`w-7 h-7 ${isScrolled ? "text-white" : "text-indigo-400"}`} />
             </div>
             <div>
-              <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-indigo-950" : "text-white"}`}>
-                Marietta Circuit
+              <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-slate-900" : "text-white"}`}>
+                Wapakoneta Bed
               </span>
-              <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-indigo-600" : "text-indigo-400"}`}>
-                Breaker <span className="text-[10px] opacity-70 px-1">Pros</span>
+              <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-red-600" : "text-red-500"}`}>
+                Bug <span className="text-[10px] opacity-70 px-1">Pros</span>
               </span>
             </div>
           </div>
 
           <nav className="hidden xl:flex items-center gap-8">
             {["services", "why-us", "faq", "contact"].map((link) => (
-              <a key={link} href={`#${link}`} className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-indigo-600" : "text-white/90 hover:text-white"}`}>
+              <a key={link} href={`#${link}`} className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-red-600" : "text-white/90 hover:text-white"}`}>
                 {link.replace("-", " ")}
               </a>
             ))}
-            <a href="/lease" className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-indigo-600" : "text-white/90 hover:text-white"}`}>
+            <a href="/lease" className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-red-600" : "text-white/90 hover:text-white"}`}>
               Lease
             </a>
           </nav>
 
           <div className="hidden lg:flex items-center gap-6">
             <div className={`flex flex-col items-end ${isScrolled ? "text-slate-900" : "text-white"}`}>
-              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">24/7 ELECTRICAL LINE</span>
-              <a href="tel:8449012684" className="text-xl font-bold hover:text-indigo-500 transition-colors tracking-tighter">(844) 901-2684</a>
+              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">24/7 BED BUG LINE</span>
+              <a href="tel:3238801224" className="text-xl font-bold hover:text-red-500 transition-colors tracking-tighter">(323) 880-1224</a>
             </div>
-            <Button className={`${isScrolled ? "bg-indigo-600 hover:bg-indigo-700" : "bg-white text-slate-900 hover:bg-indigo-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
-              <a href="tel:8449012684">Call Now</a>
+            <Button className={`${isScrolled ? "bg-red-600 hover:bg-red-700" : "bg-white text-slate-900 hover:bg-red-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
+              <a href="tel:3238801224">Call Now</a>
             </Button>
           </div>
 
@@ -63,16 +63,17 @@ const Header = () => {
         <div className="xl:hidden bg-slate-900 text-white p-6 absolute top-full left-0 right-0 border-t border-slate-800 h-screen">
           <div className="flex flex-col gap-6">
             {["Services", "Why Us", "FAQ", "Contact"].map((item) => (
-              <a key={item} href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-lg font-bold tracking-wide hover:text-indigo-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>{item}</a>
+              <a key={item} href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-lg font-bold tracking-wide hover:text-red-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>{item}</a>
             ))}
-            <a href="/lease" className="text-lg font-bold tracking-wide hover:text-indigo-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>Lease</a>
+            <a href="/lease" className="text-lg font-bold tracking-wide hover:text-red-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>Lease</a>
             <div className="pt-6">
-              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">24/7 ELECTRICAL LINE</p>
-              <a href="tel:8449012684" className="text-3xl font-bold text-indigo-400 block mb-6">(844) 901-2684</a>
-              <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-14 text-lg font-bold rounded-xl" asChild>
+              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">24/7 BED BUG LINE</p>
+              <a href="tel:3238801224" className="text-3xl font-bold text-red-500 block mb-6">(323) 880-1224</a>
+              <Button className="w-full bg-red-600 hover:bg-red-700 text-white h-14 text-lg font-bold rounded-xl" asChild>
                 <a href="#contact">Contact Specialists</a>
               </Button>
             </div>
+
 
 
           </div>

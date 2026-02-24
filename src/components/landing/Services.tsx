@@ -3,23 +3,23 @@ import { ShieldCheck, Search, Activity, Sprout, Home, Zap } from "lucide-react";
 const servicesList = [
   {
     icon: Home,
-    title: "Full Panel Upgrades",
-    description: "Our circuit breaker installation marietta ga experts provide complete electrical panel replacements to support modern home power demands safely."
+    title: "Thermal Heat Treatment",
+    description: "Our bed bug exterminator in Wapakoneta Ohio experts use specialized heaters to eliminate bed bugs in all stages of life without chemical residue."
   },
   {
     icon: Search,
-    title: "Precision Diagnostics",
-    description: "Advanced troubleshooting to identify why your breakers are tripping and providing long-term solutions for electrical stability in Marietta."
+    title: "Eco-Friendly Spraying",
+    description: "Advanced chemical applications that are safe for your family while providing long-term residual protection against recurring infestations in Wapakoneta."
   },
   {
     icon: ShieldCheck,
-    title: "Safety Inspections",
-    description: "Comprehensive audits of your electrical system to ensure compliance with Georgia electrical codes and modern safety standards."
+    title: "Detection Inspections",
+    description: "Thorough visual and scent-based inspections to confirm the presence of bed bugs and identify all hiding spots throughout your property."
   },
   {
     icon: Activity,
-    title: "Sub-Panel Installation",
-    description: "Adding extra capacity for home additions, EV chargers, or specialized equipment with professional sub-panel integration."
+    title: "Preventative Barriers",
+    description: "Installing protective mattress encasements and chemical barriers to prevent bed bugs from returning after a successful treatments."
   }
 ];
 
@@ -29,12 +29,13 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600">circuit breaker installation marietta ga</span>
+            Expert <span className="text-red-600">bed bug exterminator in Wapakoneta Ohio</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Comprehensive electrical solutions designed for Marietta's unique residential landscape. We protect your home's safety and power efficiency.
+            Comprehensive pest solutions designed for Wapakoneta's unique residential landscape. We reclaim your home's peace and safety.
           </p>
         </div>
+
 
 
 

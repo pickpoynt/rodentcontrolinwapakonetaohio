@@ -3,25 +3,24 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "How often should I have my electrical panel inspected in Marietta?",
-    answer: "For homes in Marietta, we recommend a professional electrical safety inspection every 3-5 years, or immediately if you notice flickering lights, buzzing sounds, or frequently tripping breakers."
+    question: "Is bed bug heat treatment safe for my home in Wapakoneta?",
+    answer: "Yes, thermal heat treatment is 100% non-toxic and eco-friendly. It is the safest method for Wapakoneta families as it leaves no chemical residue and only uses controlled high temperatures to eliminate pests."
   },
   {
-    question: "What are the benefits of upgrading to a modern circuit breaker?",
-
-    answer: "Modern circuit breakers provide superior protection against electrical fires through AFCI (Arc Fault Circuit Interrupter) and GFCI (Ground Fault Circuit Interrupter) technology, and can handle the higher power demands of today's appliances."
+    question: "Do I need to throw away my furniture after an infestation?",
+    answer: "In most cases, no. Our advanced thermal treatments penetrate deep into furniture, mattresses, and box springs to kill bed bugs hidden inside, allowing you to save your belongings."
   },
   {
-    question: "How long does a circuit breaker installation marietta ga typically take?",
-    answer: "A standard circuit breaker replacement can take as little as 30 minutes, while a complete panel upgrade usually takes a full day (8-10 hours) to ensure everything is code-compliant and safely integrated."
+    question: "How long does a bed bug exterminator in Wapakoneta Ohio service take?",
+    answer: "A standard thermal heat treatment typically takes 6 to 10 hours depending on the size of the home. This ensures every corner reaches the lethal temperature required for complete elimination."
   },
   {
-    question: "Can I replace a circuit breaker myself?",
-    answer: "No. Electrical work is extremely dangerous and requires specialized knowledge of load balancing and safety protocols. In Marietta, electrical work must be performed by a licensed professional to ensure insurance coverage and safety."
+    question: "How do I prepare for a bed bug treatment?",
+    answer: "Preparation involves removing heat-sensitive items (like aerosols, candles, and certain electronics) and ensuring clutter is minimized so heat or chemicals can reach all hiding spots. We provide a detailed checklist."
   },
   {
-    question: "Will my power be off during the installation?",
-    answer: "Yes, for safety reasons, we must disconnect the main power while working on the panel. We will coordinate with you to minimize disruption and ensure your power is restored as quickly as possible."
+    question: "Can bed bugs travel between apartments or houses?",
+    answer: "Yes, they are expert hitchhikers. In Wapakoneta's denser residential areas, they can travel through wall voids, electrical outlets, or via shared laundry facilities and common areas."
   }
 ];
 
@@ -33,12 +32,13 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Electrical <span className="text-indigo-600">in Marietta FAQ</span>
+            Bed Bug <span className="text-red-600">in Wapakoneta FAQ</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Common questions about circuit breaker installation, panel upgrades, and electrical safety in Marietta.
+            Common questions about bed bug extermination, thermal heat treatments, and pest prevention in Wapakoneta.
           </p>
         </div>
+
 
 
 
