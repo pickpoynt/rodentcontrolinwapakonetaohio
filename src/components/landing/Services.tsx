@@ -3,23 +3,23 @@ import { ShieldCheck, Search, Activity, Sprout, Home, Zap } from "lucide-react";
 const servicesList = [
   {
     icon: Home,
-    title: "Thermal Heat Treatment",
-    description: "Our bed bug exterminator in Wapakoneta Ohio experts use specialized heaters to eliminate bed bugs in all stages of life without chemical residue."
+    title: "Mice Extermination",
+    description: "Our rodent control in Wapakoneta Ohio experts use specialized trapping systems to eliminate mice populations without toxic residue."
   },
   {
     icon: Search,
-    title: "Eco-Friendly Spraying",
-    description: "Advanced chemical applications that are safe for your family while providing long-term residual protection against recurring infestations in Wapakoneta."
+    title: "Rat Protection",
+    description: "Advanced exclusion techniques that are safe for your family while providing long-term structural protection against returning rats in Wapakoneta."
   },
   {
     icon: ShieldCheck,
-    title: "Detection Inspections",
-    description: "Thorough visual and scent-based inspections to confirm the presence of bed bugs and identify all hiding spots throughout your property."
+    title: "Rodent Exclusion",
+    description: "Thorough visual inspections and sealing of entry points to confirm and prevent the presence of rodents throughout your Wapakoneta property."
   },
   {
     icon: Activity,
-    title: "Preventative Barriers",
-    description: "Installing protective mattress encasements and chemical barriers to prevent bed bugs from returning after a successful treatments."
+    title: "Sanitization Services",
+    description: "Cleaning and decontaminating affected areas to remove nests, droppings, and potential bacteria after successful rodent removal."
   }
 ];
 
@@ -29,10 +29,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-red-600">bed bug exterminator in Wapakoneta Ohio</span>
+            Expert <span className="text-indigo-600">rodent control in Wapakoneta Ohio</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Comprehensive pest solutions designed for Wapakoneta's unique residential landscape. We reclaim your home's peace and safety.
+            Comprehensive rodent solutions designed for Wapakoneta's unique properties. We reclaim your home's hygiene and safety.
           </p>
         </div>
 

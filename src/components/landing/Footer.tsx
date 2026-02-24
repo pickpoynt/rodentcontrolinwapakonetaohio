@@ -10,20 +10,20 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-8">
-              <div className="w-12 h-12 rounded-xl bg-red-600 flex items-center justify-center shadow-lg shadow-red-900/40">
+              <div className="w-12 h-12 rounded-xl bg-indigo-600 flex items-center justify-center shadow-lg shadow-indigo-900/40">
                 <ShieldCheck className="w-7 h-7 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Wapakoneta Bed</span>
-                <span className="text-sm font-medium text-red-500 uppercase tracking-widest text-[10px]">Bug Pros</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Wapakoneta Rodent</span>
+                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Control Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic text-sm">
-              Wapakoneta's specialized team for professional bed bug extermination and pest control. We provide elite-grade thermal treatments and protection to reclaim your home's peace.
+              Wapakoneta's specialized team for professional rodent control and permanent exclusion. We provide elite-grade trapping and protection to reclaim your home's hygiene.
             </p>
             <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
-                <a key={i} href="#" className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-red-600 hover:border-red-600 transition-all duration-300">
+                <a key={i} href="#" className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-indigo-600 hover:border-indigo-600 transition-all duration-300">
                   <Icon className="w-5 h-5 text-slate-400 group-hover:text-white" />
                 </a>
               ))}
@@ -31,19 +31,19 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-red-400">Pest Services</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Pest Services</h4>
             <ul className="space-y-4">
               {[
-                "Thermal Heat Treatment",
-                "Bed Bug Inspections",
-                "Chemical Extermination",
-                "Preventative Barriers",
-                "Eco-Friendly Solutions",
-                "Emergency Response"
+                "Mice Extermination",
+                "Rat Protection",
+                "Gopher Control",
+                "Rodent Exclusion",
+                "Eco-Friendly Pellets",
+                "Emergency Baiting"
               ].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2 group">
-                    <div className="w-1.5 h-1.5 rounded-full bg-red-600 group-hover:w-3 transition-all" />
+                    <div className="w-1.5 h-1.5 rounded-full bg-indigo-600 group-hover:w-3 transition-all" />
                     <span className="text-sm font-bold uppercase tracking-tight">{item}</span>
                   </a>
                 </li>
@@ -52,11 +52,11 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-red-400">Wapakoneta NAP</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Wapakoneta NAP</h4>
             <ul className="space-y-6">
               <li className="flex gap-4">
                 <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0">
-                  <MapPin className="w-5 h-5 text-red-400" />
+                  <MapPin className="w-5 h-5 text-indigo-400" />
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">HQ</p>
@@ -66,46 +66,47 @@ const Footer = () => {
               </li>
               <li className="flex gap-4">
                 <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0">
-                  <Phone className="w-5 h-5 text-red-400" />
+                  <Phone className="w-5 h-5 text-indigo-400" />
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Inquiries</p>
-                  <a href="tel:3238801224" className="text-sm font-bold text-slate-300 hover:text-red-400 transition-colors uppercase tracking-tight">(323) 880-1224</a>
+                  <a href="tel:3238801224" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors uppercase tracking-tight">(323) 880-1224</a>
                 </div>
               </li>
               <li className="flex gap-4">
                 <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0">
-                  <Mail className="w-5 h-5 text-red-400" />
+                  <Mail className="w-5 h-5 text-indigo-400" />
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Support</p>
-                  <a href="mailto:domain@support.com" className="text-sm font-bold text-slate-300 hover:text-red-400 transition-colors lowercase tracking-tight">domain@support.com</a>
+                  <a href="mailto:SUPPORT@RODENTCONTROLWAPAKONETAOHIO.COM" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors lowercase tracking-tight">SUPPORT@RODENTCONTROLWAPAKONETAOHIO.COM</a>
                 </div>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-red-400">Standard Excellence</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Standard Excellence</h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-6 italic font-medium">
-              We specialize in the unique pest control requirements of Wapakoneta OH homes, using high-performance thermal equipment and safe chemical protocols.
+              We specialize in the unique rodent control requirements of Wapakoneta OH homes, using high-performance exclusion materials and safe trapping protocols.
             </p>
             <div className="p-6 bg-white/5 rounded-2xl border border-white/10">
-              <p className="text-[10px] font-bold text-red-400 uppercase tracking-[0.2em] mb-2">Service Promise</p>
-              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Expert Bed Bug Assessments Available Across Wapakoneta.</p>
+              <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-[0.2em] mb-2">Service Promise</p>
+              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Expert Rodent Assessments Available Across Wapakoneta.</p>
             </div>
           </div>
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6 uppercase tracking-widest text-[10px] font-bold">
           <p className="text-slate-500 text-center md:text-left">
-            © {new Date().getFullYear()} Wapakoneta Bed Bug Pros. All rights reserved. Professional Pest Control & Safety.
+            © {new Date().getFullYear()} Wapakoneta Rodent Control Pros. All rights reserved. Professional Pest Control & Safety.
           </p>
           <div className="flex gap-8 items-center">
-            <a href="/lease" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg transition-colors border border-red-400/30 text-nowrap">Lease my number ($19/mo)</a>
-            <a href="#" className="text-slate-500 hover:text-red-400 transition-colors">Privacy Policy</a>
-            <a href="#" className="text-slate-500 hover:text-red-400 transition-colors">Terms of Service</a>
+            <a href="/lease" className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition-colors border border-indigo-400/30 text-nowrap">Lease my number ($19/mo)</a>
+            <a href="#" className="text-slate-500 hover:text-indigo-400 transition-colors">Privacy Policy</a>
+            <a href="#" className="text-slate-500 hover:text-indigo-400 transition-colors">Terms of Service</a>
           </div>
+
 
 
         </div>

@@ -3,24 +3,24 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "Is bed bug heat treatment safe for my home in Wapakoneta?",
-    answer: "Yes, thermal heat treatment is 100% non-toxic and eco-friendly. It is the safest method for Wapakoneta families as it leaves no chemical residue and only uses controlled high temperatures to eliminate pests."
+    question: "How long does a rodent control service take in Wapakoneta?",
+    answer: "An initial inspection and trapping setup typically takes 1.5 to 3 hours. We then perform follow-up visits every few days to monitor progress and ensure the population is eliminated."
   },
   {
-    question: "Do I need to throw away my furniture after an infestation?",
-    answer: "In most cases, no. Our advanced thermal treatments penetrate deep into furniture, mattresses, and box springs to kill bed bugs hidden inside, allowing you to save your belongings."
+    question: "Is rodent exclusion permanent?",
+    answer: "Yes, our exclusion methods use professional-grade steel mesh, copper wool, and specialized sealants that rodents cannot chew through, providing a permanent physical barrier for your home."
   },
   {
-    question: "How long does a bed bug exterminator in Wapakoneta Ohio service take?",
-    answer: "A standard thermal heat treatment typically takes 6 to 10 hours depending on the size of the home. This ensures every corner reaches the lethal temperature required for complete elimination."
+    question: "Are your rodent baits safe for my pets?",
+    answer: "We use Tier 1 bait stations that are tamper-resistant and designed to keep children and pets out. Our technicians strategically place these in areas inaccessible to domestic animals."
   },
   {
-    question: "How do I prepare for a bed bug treatment?",
-    answer: "Preparation involves removing heat-sensitive items (like aerosols, candles, and certain electronics) and ensuring clutter is minimized so heat or chemicals can reach all hiding spots. We provide a detailed checklist."
+    question: "Do I need to leave my home during treatment?",
+    answer: "In most cases, no. Our rodent control methods are localized and don't involve broad chemical spraying, so you can remain in your home during the entire process."
   },
   {
-    question: "Can bed bugs travel between apartments or houses?",
-    answer: "Yes, they are expert hitchhikers. In Wapakoneta's denser residential areas, they can travel through wall voids, electrical outlets, or via shared laundry facilities and common areas."
+    question: "How can I tell the difference between mice and rats?",
+    answer: "Mice are smaller with larger ears and long thin tails. Rats are significantly larger (up to 10 inches), have thicker tails, and leave larger, pill-shaped droppings."
   }
 ];
 
@@ -32,10 +32,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Bed Bug <span className="text-red-600">in Wapakoneta FAQ</span>
+            Rodent Control <span className="text-indigo-600">in Wapakoneta FAQ</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Common questions about bed bug extermination, thermal heat treatments, and pest prevention in Wapakoneta.
+            Common questions about rodent elimination, exclusion techniques, and pest prevention in Wapakoneta.
           </p>
         </div>
 
