@@ -12,15 +12,15 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Bed Bug Exterminator in Wapakoneta Ohio",
-  subtitle = "Wapakoneta's specialized experts in professional bed bug extermination and advanced thermal heat treatment. Available 24/7.",
+  title = "Rodent Control in Wapakoneta Ohio",
+  subtitle = "Wapakoneta's specialized experts in professional rodent control in Wapakoneta Ohio and advanced exclusion techniques. Available 24/7.",
   image = "/1.jpeg",
   overlayImage = "/2.jpeg",
   phone = "3238801224",
-  badge = "WAPAKONETA BED BUG PROS",
+  badge = "WAPAKONETA RODENT CONTROL PROS",
   features = [
     { icon: Search, text: "Detection Experts" },
-    { icon: ShieldCheck, text: "Heat Treatment" },
+    { icon: ShieldCheck, text: "Rodent Exclusion" },
     { icon: Hammer, text: "Complete Elimination" }
   ]
 }: HeroProps) => {
