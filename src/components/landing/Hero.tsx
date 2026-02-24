@@ -12,16 +12,16 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Water Damage Restoration Josephine TX",
-  subtitle = "Josephine's specialized experts in professional water damage restoration and emergency structural drying. Available 24/7.",
+  title = "Bed Bug Exterminator in Wapakoneta Ohio",
+  subtitle = "Wapakoneta's specialized experts in professional bed bug extermination and advanced thermal heat treatment. Available 24/7.",
   image = "/1.jpeg",
   overlayImage = "/2.jpeg",
-  phone = "3802660944",
-  badge = "JOSEPHINE WATER DAMAGE PROS",
+  phone = "3238801224",
+  badge = "WAPAKONETA BED BUG PROS",
   features = [
-    { icon: Locate, text: "Flood Cleanup" },
-    { icon: ShieldCheck, text: "Water Removal" },
-    { icon: Activity, text: "Structural Drying" }
+    { icon: Search, text: "Detection Experts" },
+    { icon: ShieldCheck, text: "Heat Treatment" },
+    { icon: Hammer, text: "Complete Elimination" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");

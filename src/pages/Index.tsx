@@ -108,10 +108,10 @@ const Index = () => {
           <div className="container mx-auto px-4">
             <h2 className="text-2xl font-bold mb-6 text-slate-800 uppercase tracking-tight">Our Industry Network</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pb-8">
-              <a href="https://pestcontrolsouthpointohio.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Pest Control South Point Ohio</a>
-              <a href="https://gophercontrolfrankenmuthmi.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Gopher Control Frankenmuth MI</a>
-              <a href="https://leakingpiperepairinmodesto.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Leaking Pipe Repair Modesto</a>
-              <a href="https://termiteinspectionburbank.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Termite Inspection Burbank</a>
+              <a href="https://pestcontrolsouthpointohio.vercel.app/" className="text-red-600 hover:text-red-800 font-bold transition-colors">Pest Control South Point Ohio</a>
+              <a href="https://gophercontrolfrankenmuthmi.vercel.app/" className="text-red-600 hover:text-red-800 font-bold transition-colors">Gopher Control Frankenmuth MI</a>
+              <a href="https://leakingpiperepairinmodesto.vercel.app/" className="text-red-600 hover:text-red-800 font-bold transition-colors">Leaking Pipe Repair Modesto</a>
+              <a href="https://termiteinspectionburbank.vercel.app/" className="text-red-600 hover:text-red-800 font-bold transition-colors">Termite Inspection Burbank</a>
             </div>
           </div>
         </section>
