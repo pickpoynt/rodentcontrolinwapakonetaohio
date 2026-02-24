@@ -14,8 +14,8 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>water damage restoration josephine tx - Josephine Water Damage Pros</title>
-        <meta name="description" content="water damage restoration josephine tx - Professional water damage restoration, emergency flood cleanup, and mold remediation in Josephine. Expert technicians available 24/7." />
+        <title>water damage restoration josephine tx</title>
+        <meta name="description" content="Professional water damage restoration, emergency flood cleanup, and mold remediation in Josephine, TX. Expert technicians available 24/7." />
         <meta name="keywords" content="water damage restoration josephine tx, emergency water removal Josephine, flood cleanup Josephine TX, mold remediation Josephine, water extraction Josephine" />
         <link rel="canonical" href="https://waterdamagerestorationjosephinetx.vercel.app/" />
 
@@ -75,8 +75,8 @@ const Index = () => {
           })}
         </script>
 
-        <meta property="og:title" content="water damage restoration josephine tx - Josephine Water Damage Pros" />
-        <meta property="og:description" content="water damage restoration josephine tx - Expert water damage restoration and emergency flood cleanup services in Josephine, TX." />
+        <meta property="og:title" content="water damage restoration josephine tx" />
+        <meta property="og:description" content="Expert water damage restoration and emergency flood cleanup services in Josephine, TX." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://waterdamagerestorationjosephinetx.vercel.app/" />
         <meta property="og:image" content="/1.jpeg" />
